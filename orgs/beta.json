@@ -1,20 +1,13 @@
 {
-  "orgName": "DataWeaveInApex - Beta Test Org",
+  "orgName": "DataWeaveInApex Org",
   "edition": "Developer",
+  "features": ["EnableSetPasswordInApi", "DataWeaveInApex"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
-    "chatterSettings": {
-      "enableChatter": true
-    },
-    "userManagementSettings": {
-      "enableNewProfileUI": true
-    },
-    "securitySettings": {
-      "enableAdminLoginAsAnyUser": true,
-      "sessionSettings": {
-        "forceRelogin": false
-      }
-    }  }
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
 }
