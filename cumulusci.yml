@@ -1,0 +1,24 @@
+minimum_cumulusci_version: '3.78.0'
+project:
+    name: DataWeaveInApex
+    package:
+        name: DataWeaveInApex
+        api_version: '57.0'
+    git:
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/DataWeaveInApex/tests
+            options:
+                outputdir: robot/DataWeaveInApex/results
+
+    robot_testdoc:
+        options:
+            path: robot/DataWeaveInApex/tests
+            output: robot/DataWeaveInApex/doc/DataWeaveInApex_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
