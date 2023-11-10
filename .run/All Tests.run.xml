@@ -4,7 +4,7 @@
     <option name="allowRunningInParallel" value="true" />
     <option name="apexLogLevel" value="DEBUG" />
     <option name="calloutsLogLevel" value="INFO" />
-    <option name="connectionName" value="DataWeaveInApex__dev" />
+    <option name="connectionName" value="test-ouibsqqjjjuu@example.com" />
     <option name="connectionType" value="SFDX" />
     <option name="contextConfiguration" value="false" />
     <option name="databaseLogLevel" value="INFO" />
